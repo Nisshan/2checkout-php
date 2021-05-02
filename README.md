@@ -42,8 +42,6 @@ Twocheckout::password('testlibraryapi901248204PASS');
 // If you want to turn off SSL verification (Please don't do this in your production environment)
 Twocheckout::verifySSL(false);  // this is set to true by default
 
-// To use your sandbox account set sandbox to true
-Twocheckout::sandbox(true);
 
 // All methods return an Array by default or you can set the format to 'json' to get a JSON response.
 Twocheckout::format('json');
